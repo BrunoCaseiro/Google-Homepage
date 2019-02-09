@@ -1,0 +1,158 @@
+.sign_in {
+    position: fixed;
+    top:3%;
+    left: 93%;
+    border: 6px solid #4285f4;
+    background-color: #4285f4;
+    border-radius: 3px;
+}
+
+.entrar {
+    font-family: Arial, sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+.gmail {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    position: fixed;
+    top: 15px;
+    left: 81%;
+    color: rgba(0,0,0,0.87);
+}
+
+.imagens {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    position: fixed;
+    top: 15px;
+    left: 85%;
+    color: rgba(0,0,0,0.87);
+}
+
+.gapps {
+    position: fixed;
+    top: 25px;
+    left: 90%;
+}
+
+.logo {
+    height: 22%;
+    width: 22%;
+    position: absolute;
+    top: 24%;
+    right:39%;
+}
+
+.search {
+    position: absolute;
+    top: 48%;
+    right: 28.5%;
+    width: 584px;
+    height: 38px;
+    color: rgba(0,0,0,.87);
+    font-size: 16px;
+    font-family: arial, sans-serif;
+    text-indent: 10px;
+    border:1px solid #eaeaea;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    border: 1px solid #c6c6c6;
+    background: url(mic.png), url(keyboard.png);
+    background-size: 4%, 3.5%;
+    background-repeat: no-repeat;
+    background-position-x: 550px, 510px;
+    background-position-y: center, center;
+}
+
+.search:hover{
+    box-shadow: 0 4px 4px rgba(0,0,0,0.1);
+}
+
+.footer {
+    position:fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #f2f2f2;
+    width: 100%;
+    height: 43px;
+    border: 1px solid #e4e4e4;
+}
+
+.country { 
+    position: fixed;
+    bottom: 43px; 
+    left: 0;
+    background-color: #f2f2f2;
+    width:100%;
+    height: 47px;
+    border: 1px solid #e4e4e4
+}
+
+.SpanCountry {
+    font-size: 17px;
+    font-family: arial, sans-serif;
+    color: rgba(0,0,0,.54);
+    margin-left: 28px;
+    position: relative;
+    top: 32%;
+}
+
+.publicidade {
+    font-size: 15px;
+    font-family: arial, sans-serif;
+    color: rgba(0,0,0,.54);
+    margin-left: 28px;
+    position: relative;
+    top: 32%;
+}
+
+.negocios {
+    font-size: 15px;
+    font-family: arial, sans-serif;
+    color: rgba(0,0,0,.54);
+    margin-left: 28px;
+    position: relative;
+    top: 32%;
+}
+
+.sobre {
+    font-size: 15px;
+    font-family: arial, sans-serif;
+    color: rgba(0,0,0,.54);
+    margin-left: 28px;
+    position: relative;
+    top: 32%;
+}
+
+.privacidade {
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    color: rgba(0,0,0,.54);
+    margin-left: 810px;
+    position: relative;
+    top: 32%;
+}
+
+.termos {
+    font-size: 15px;
+    font-family: arial, sans-serif;
+    color: rgba(0,0,0,.54);
+    margin-left: 28px;
+    position: relative;
+    top: 32%;
+}
+
+.definicoes {
+    font-size: 15px;
+    font-family: arial, sans-serif;
+    color: rgba(0,0,0,.54);
+    margin-left: 28px;
+    position: relative;
+    top: 32%;
+}
+
+.sobre:hover, .privacidade:hover, .termos:hover, .definicoes:hover, .publicidade:hover, .negocios:hover, .gmail:hover, .imagens:hover, .sign_in:hover, .gapps:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
